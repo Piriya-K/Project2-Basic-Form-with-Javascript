@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+    .top {width: 50%; display: flex; margin: 0 auto; align-items: center; justify-content:center;}
+    img {width: 20%; height: auto;}
+    body {font-family: 'Dangrek', cursive; background-color: rgb(232, 231, 231);}
+    h1 {text-align: center; font-size: 250%; text-shadow: 5px 5px 10px black; color: greenyellow;}
+    main {width: 50%; margin: 0 auto;}
+    form, fieldset {margin: 0 auto;}
+    fieldset {background-color:snow; width: 80%;}
+    legend {background-color: rgb(37, 199, 77); color: white; padding: 5px 10px;}
+        
+    /* input customization */
+    input[type=text], input[type=tel], input[type=email], input[type=number], input[type=date] {
+      width: 100%; 
+      padding: 12px 20px; margin: 8px 0;
+      display: inline-block; 
+      border: 1px solid #ccc; 
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .buttons {text-align: center;}
+
+    input[type=submit] {
+      width: 80%; 
+      background-color: rgb(37, 199, 77); 
+      color: white; 
+      padding: 14px 20px; 
+      margin: 8px 0; 
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: larger;
+    }
+
+    input[type=reset] {
+      width: 80%; 
+      background-color: orange;
+      padding: 14px 20px; 
+      margin: 8px 0; 
+      border: none;
+      border-radius: 4px; 
+      cursor: pointer;
+      font-size: larger;
+    }
+
+    p {
+      color: black; 
+      background-color: white; 
+      width: 80%;
+      padding-left: 20px;
+      margin: 0 auto;
+    }
